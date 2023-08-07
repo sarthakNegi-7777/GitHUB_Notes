@@ -1,0 +1,88 @@
+# open Git Bash !!!
+
+
+>>  git --version
+-> to check the version of git.
+
+>>  git config --global user.name "your_name"
+-> to set the user so that one can see who updates/modifies the code.
+
+>>  git config --global user.email "your_email"
+-> to set the email id of user.
+
+>>  git config --global user.name or git config --global user.email
+-> to check name or email entered.
+
+>>  git config --global --edit
+-> to edit name or email.
+
+>>  mkdir <dir_name>
+-> to make a directory.
+
+>>  cd <dir_name>
+-> to change directory or to get inside that directory. (vice-versa :  cd ..)
+
+>>  git init
+-> to initialize git in that directory to make that a repository.
+
+>>  ls (many types :  -a, -h, -t, etc)
+-> to lists files and directories in the current directory.
+
+>>  git status
+-> used to find out what changes has been done to the repository.
+
+>>  git add <file_name> or .(for all files)
+-> to track your file and moving it to the staging area (:  area in which we hold our changes in a file before commiting it).
+
+>>  git commit -m "message of commit"
+-> to save changes to the repository along with a descriptive message that explains the purpose or details of the commit.
+
+>>  git log
+-> tells us about previously done commits.
+
+>>  git checkout <hash_code>
+-> to move in different commits or branches.
+
+>>  git checkout master
+-> to move in current commit.
+
+>>  git branch <branch_name>
+-> to make an alternate branches so that one feature or anything like that does not affect the other.
+
+>>  git branch
+-> to show all the branches made.
+
+>>  git checkout -b <branch_name>
+-> to directly move to the branch we make.
+
+>>  git merge <branch_name>
+-> to merge two branch (we should be in the branch we want the merger happens).
+
+>>  touch .gitignore
+-> this will make a .gitignore file in which mentioned files will not be a part of git ecosystem.
+
+>>  ssh-keygen -t rsa -b 4096 -C "your_email@example.com" or ssh-keygen -t ed25519 -C "your_email@example.com"
+-> to generate new ssh key.
+
+>>  git remote add origin <ssh_link>
+-> this will connect local repo to git repo.
+
+>>  git push origin <branch_name>
+-> this will push code from local git repo to origin(remote git repo) made in github.
+
+>>  git pull origin <branch_name>
+-> this will pull code from origin to local git repo.
+
+>> cat <file_name> or tail <file_name>
+-> to read from a file without opening it to edit.
+
+>>  git clone <repo>
+-> to clone that repo in our local system to work on it.
+
+>>  rm <file_name>
+-> to remove file or to delete it.
+
+>>  git diff
+-> to see what changes you made before adding and commiting.
+
+>>  
