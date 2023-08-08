@@ -85,4 +85,14 @@
 >>  git diff
 -> to see what changes you made before adding and commiting.
 
+>>  clear
+-> to clear the git bash screen.
+
+>>  exit
+-> to log out from the git bash.
+
+>>  git stash
+-> to switch branches without committing the current branch i.e. "store something safely in a hidden place" and continue working without any load.
+
 >>  
+
