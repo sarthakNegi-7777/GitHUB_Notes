@@ -1,6 +1,6 @@
 Ques1 - How to create a GitHub repo using Git ?
 
-
+->
 >>  git config --global user.name "your_name"
 >>  git config --global user.email "your_email"
 
@@ -16,4 +16,9 @@ Ques1 - How to create a GitHub repo using Git ?
 	>>  git log   <-{to check commits}
 
 
-Ques2 - 
+Ques2 - How to end git log ?
+
+-> press 'q'
+
+
+Ques3 - 
