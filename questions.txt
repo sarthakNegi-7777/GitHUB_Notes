@@ -4,16 +4,14 @@ Ques1 - How to create a GitHub repo using Git ?
 >>  git config --global user.name "your_name"
 >>  git config --global user.email "your_email"
 
-	>>  git init   <-{to initialize git}
-	>>  touch .gitignore   <-{optional}
-	>>  git status   <-{to check files}
-
+	>>  git init   <---{to initialize git}
+	>>  touch .gitignore   <---{optional}
+		>>  git status   <---{to check files}
 		>>  git add . or <file_name>
 		>>  git commit -m "message"
-		>>  git remote add origin <ssh_link>
+		>>  git log   <---{to check commits}
+	>>  git remote add origin <ssh_link>
 		>>  git push origin <branch_name>
-
-	>>  git log   <-{to check commits}
 
 
 Ques2 - How to end git log ?
