@@ -1,5 +1,4 @@
 Ques1 - How to create a GitHub repo using Git ?
-
 ->
 >>  git config --global user.name "your_name"
 >>  git config --global user.email "your_email"
@@ -7,16 +6,22 @@ Ques1 - How to create a GitHub repo using Git ?
 	>>  git init   <---{to initialize git}
 	>>  touch .gitignore   <---{optional}
 		>>  git status   <---{to check files}
-		>>  git add . or <file_name>
-		>>  git commit -m "message"
+			>>  git add . or <file_name>
+			>>  git commit -m "message"
 		>>  git log   <---{to check commits}
 	>>  git remote add origin <ssh_link>
-		>>  git push origin <branch_name>
+			>>  git push origin <branch_name>
 
 
 Ques2 - How to end git log ?
-
 -> press 'q'
 
 
-Ques3 - 
+Ques3 - Difference between forking and cloning ?
+->
+Forking : creates your own copy of a repository in a remote location (for example, GitHub). Your own copy means that you will be able to contribute changes to your copy of the repository without affecting the original repository.
+Cloning : makes a local copy of a repository, not your own copy. Think of it as downloading a repository onto your local hard drive. Unlike forks, clones have references to their original repositories.
+
+
+Ques4 - 
+-> 
