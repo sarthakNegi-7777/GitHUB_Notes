@@ -23,5 +23,25 @@ Forking : creates your own copy of a repository in a remote location (for exampl
 Cloning : makes a local copy of a repository, not your own copy. Think of it as downloading a repository onto your local hard drive. Unlike forks, clones have references to their original repositories.
 
 
-Ques4 - 
--> 
+Ques4 - How to contribute to other repositories through GitHub ?
+->
+here are the steps :-
+	1) Go to the repo you want to contribute to.
+	2) fork the repo to your GitHub account.
+	3) clone the forked repo to create a local copy of the repo.
+	4) create a new branch for your contribution.
+	5) make the changes.
+	6) commit changes and push it to your forked repo.
+	7) create a pull request :
+			-> Go to your forked repository on GitHub.
+			-> Click on the "compare & pull request" button next to the branch you just pushed.
+			-> Provide a descriptive title and details for your pull request.
+			-> Click on "create pull request".
+	8) discuss and review your pull request.
+	9) merge pull request :
+			-> once your request is approved by the owner then your contribution will be merged into the main project.
+	10) you can sync your forked repo with the original repo (optional).
+
+
+Ques5 - 
+->
