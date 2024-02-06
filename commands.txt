@@ -1,8 +1,7 @@
-# open Git Bash !!!
+# open Git-Bash !!!
 
 
->> git --version
--> to check the version of git.
+? Setup and Initialization :
 
 >> git config --global user.name "your_name"
 -> to set the user so that one can see who updates/modifies the code.
@@ -16,53 +15,68 @@
 >> git config --global --edit
 -> to edit name or email.
 
->> mkdir <dir_name>
--> to make a directory.
-
->> cd <dir_name>
--> to change directory or to get inside that directory. (vice-versa :  cd ..)
-
 >> git init
 -> to initialize git in that directory to make that a repository.
 
->> ls (many types :  -a, -h, -t, etc)
--> to lists files and directories in the current directory.
+>> git clone <repo>
+-> to clone that repo in our local system to work on it.
+
+
+? Stage Area :
 
 >> git status
--> used to find out what changes has been done to the repository.
+-> to find out what changes has been done to the repository.
 
 >> git add <file_name> or .(for all files)
--> to track your file and moving it to the staging area (:  area in which we hold our changes in a file before commiting it).
+-> to track your file and moving it to the staging area (:- area in which we hold our changes in a file before commiting it).
+
+>> git reset <file_name>
+-> to unstage a file while retaining the changes in working directory.
+
+>> git diff
+-> to see what changes you made before adding and commiting.
+
+>> git diff --staged
+-> to see what you have staged but not yet committed.
 
 >> git commit -m "message of commit"
 -> to save changes to the repository along with a descriptive message that explains the purpose or details of the commit.
 
->> git log
--> tells us about previously done commits.
 
->> git checkout <hash_code>
--> to move in different commits or branches.
-
->> git checkout master
--> to move in current commit.
-
->> git branch <branch_name>
--> to make an alternate branches so that one feature or anything like that does not affect the other.
+? Branch and Merge :
 
 >> git branch
 -> to show all the branches made.
 
+>> git branch <branch_name>
+-> to make an alternate branches so that one feature or anything like that does not affect the other.
+
 >> git checkout -b <branch_name>
--> to directly move to the branch we make.
+-> to directly move to the branch and simultaneously making it.
 
 >> git merge <branch_name>
 -> to merge two branch (we should be in the branch we want the merger happens).
 
->> touch .gitignore
--> this will make a .gitignore file in which mentioned files will not be a part of git ecosystem.
 
->> ssh-keygen -t rsa -b 4096 -C "your_email@example.com" or ssh-keygen -t ed25519 -C "your_email@example.com"
--> to generate new ssh key.
+? Inspect :
+
+>> git log
+-> to show the commit history for the currently active branch.
+
+>> git log <branch_B>..<branch_A>
+-> to show the commits on branch_A that are not on branch_B.
+
+
+? Tracking Path Changes :
+
+>> git rm <file_name>
+-> to delete the file from project and stage the removal for commit.
+
+>> 
+-> 
+
+
+? Share and Update :
 
 >> git remote add origin <ssh_link>
 -> this will connect local repo to git repo.
@@ -73,25 +87,50 @@
 >> git pull origin <branch_name>
 -> this will pull code from origin to local git repo.
 
+>> 
+-> 
+
+
+? Temporary Commits :
+
+>> git stash
+-> to save modified and staged changes.
+
+>> 
+-> 
+
+>> 
+-> 
+
+>> 
+-> 
+
+
+? Other Commands :
+
+>> git --version
+-> to check the version of git.
+
+>> mkdir <dir_name>
+-> to make a directory.
+
+>> cd <dir_name>
+-> to change directory or to get inside that directory. (vice-versa :  cd ..)
+
+>> ls (many types :  -a, -h, -t, etc)
+-> to lists files and directories in the current directory.
+
+>> touch .gitignore
+-> this will make a .gitignore file in which mentioned files will not be a part of git ecosystem.
+
+>> ssh-keygen -t rsa -b 4096 -C "your_email@example.com" or ssh-keygen -t ed25519 -C "your_email@example.com"
+-> to generate new ssh key.
+
 >> cat <file_name> or tail <file_name>
 -> to read from a file without opening it to edit.
-
->> git clone <repo>
--> to clone that repo in our local system to work on it.
-
->> rm <file_name>
--> to remove file or to delete it.
-
->> git diff
--> to see what changes you made before adding and commiting.
 
 >> clear
 -> to clear the git bash screen.
 
 >> exit
 -> to log out from the git bash.
-
->> git stash
--> to switch branches without committing the current branch i.e. "store something safely in a hidden place" and continue working without any load.
-
->> 
