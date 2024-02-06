@@ -72,8 +72,8 @@
 >> git rm <file_name>
 -> to delete the file from project and stage the removal for commit.
 
->> 
--> 
+>> git mv <existing_path> <new_path>
+-> to change an existing file path and stage the move.
 
 
 ? Share and Update :
@@ -87,8 +87,8 @@
 >> git pull origin <branch_name>
 -> this will pull code from origin to local git repo.
 
->> 
--> 
+>> git fetch <alias>(origin)
+-> to fetch all the branches form that Git remote.
 
 
 ? Temporary Commits :
@@ -96,14 +96,14 @@
 >> git stash
 -> to save modified and staged changes.
 
->> 
--> 
+>> git stash list
+-> to list stack-order of stashed file changes.
 
->> 
--> 
+>> git stash pop
+-> to write working from the top of stash stack.
 
->> 
--> 
+>> git stash drop
+-> to discard the changes from the top of stash stack.
 
 
 ? Other Commands :
@@ -115,7 +115,7 @@
 -> to make a directory.
 
 >> cd <dir_name>
--> to change directory or to get inside that directory. (vice-versa :  cd ..)
+-> to change directory or to get inside that directory. (vice-versa :- cd ..)
 
 >> ls (many types :  -a, -h, -t, etc)
 -> to lists files and directories in the current directory.
